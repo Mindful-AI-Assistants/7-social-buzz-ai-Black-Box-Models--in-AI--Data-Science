@@ -7,7 +7,7 @@
 
 <br>
 
-# <p align="center"> 5- Social [Buzz AI]() - Natural Language Processing (NLP) - [Class 2]() - Lesson on Vector Representations and Text Classification
+# <p align="center"> 7- [Social Buzz AI]() - Black Box Models in AI and Data Science
 
 
 
