@@ -218,9 +218,17 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
+### 2. SHAP Dependence Plot
+
+- Plots SHAP values of a single feature versus actual feature values.<br>
+- Color encodes interaction with another feature.<br>
+
+```
+- Reveals nonlinear effects and interactions.<br><br>  
+```
 
 
-
+<br><br>
 
 
 
