@@ -176,8 +176,29 @@ exp.show_in_notebook(show_table=True)
 <br><br>
 
 
+### SHAP Example
 
+<br>
 
+```python  
+import shap  
+from sklearn.datasets import load_iris  
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.model_selection import train_test_split  
+
+data = load_iris()  
+X_train, X_test, y_train, y_test = train_test_split(data.data, data.target, random_state=42)  
+
+model = RandomForestClassifier(random_state=42)  
+model.fit(X_train, y_train)  
+
+explainer = shap.TreeExplainer(model)  
+shap_values = explainer.shap_values(X_test)  
+
+shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)  
+```
+
+<br><br>
 
 
 
