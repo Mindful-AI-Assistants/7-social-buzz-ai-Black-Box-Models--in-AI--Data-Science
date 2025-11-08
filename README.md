@@ -201,8 +201,21 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
+# Common SHAP Visualizations and How to Interpret Them
+
+### 1. SHAP Summary Plot
+
+- Displays global feature importance and the effect direction.<br>
+- Each dot: SHAP value for a feature and instance.<br>
+- X-axis: impact on prediction (right increases, left decreases).<br>
+- Color: feature value (red = high, blue = low).<br>
+
+```
+- Interpretation: see which features push predictions higher or lower and how feature values relate.<br><br>  
+```
 
 
+<br><br>
 
 
 
