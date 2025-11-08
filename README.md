@@ -311,43 +311,33 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 - XAI methods provide explanations for flagged transactions ensuring regulatory compliance.<br><br>  
 ```
 
+
+<br><br>
+
+### Marketing
+
+<br>
+
+- Models predict customer churn.<br>
+- SHAP and LIME explain drivers of individual and aggregate churn predictions.<br>
+
+
 <br><br>
 
 
+## References and Further Reading
+
+<br>
+
+- Ribeiro et al., 2016. "Why Should I Trust You?": Explaining the Predictions of Any Classifier (LIME).
+- Lundberg \& Lee, 2017. A Unified Approach to Interpreting Model Predictions (SHAP).
+- Rudin, 2019. "Stop Explaining Black Box Models for High Stakes Decisions and Use Interpretable Models Instead."
+- IBM article: What Is Black Box AI and How Does It Work?
+- SEON and Unit21 articles on Black Box Machine Learning.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
 <br><br>
 
 
