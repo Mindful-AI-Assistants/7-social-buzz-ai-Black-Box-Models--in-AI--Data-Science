@@ -106,7 +106,22 @@ These models learn from large datasets to capture hidden patterns. When fed new 
 <br><br>
 
 
+## Why Use Black Box Models?
 
+- They often achieve **higher accuracy** for complex problems.<br>
+- They can **model nonlinear and high-dimensional relationships** that simpler models cannot capture.<br>
+- They can **adapt continuously** to new data in dynamic environments.
+
+<br><br>
+
+## Challenges of Black Box Models
+
+- Their **lack of transparency** complicates trust and validation.<br>
+- Difficult to **debug or identify biases** inside the model.<br>
+- Raise **ethical and legal concerns** in sensitive applications like healthcare or finance.
+
+
+<br><br>
 
 
 
