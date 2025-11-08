@@ -235,9 +235,33 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
+### 3. SHAP Force Plot
 
+- Visualizes feature contributions for a single instance.<br>
+- Shows how features cumulatively push from average prediction to final output.<br>
 
+<br>
 
+> [!TIP]
+>
+> Useful for explaining specific predictions.<br><br> 
+>
+
+<br><br>
+
+### 4. SHAP Decision Plot
+
+- Shows cumulative SHAP values as features are considered.<br>
+- Traces how the prediction evolves step by step.<br>
+
+<br>
+
+> [!TIP]
+>
+>  Useful to understand the decision-making path.<br><br> 
+> 
+
+<br><br>
 
 
 
