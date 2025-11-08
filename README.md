@@ -293,9 +293,10 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 
 <br>
 
-```
-- LIME explains predictions on tabular clinical data to support diagnoses.<br><br>  
-```
+> [!TIP]
+>
+> LIME explains predictions on tabular clinical data to support diagnoses.<br><br>
+> 
 
 <br><br>
 
@@ -307,9 +308,10 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 
 <br>
 
-```
-- XAI methods provide explanations for flagged transactions ensuring regulatory compliance.<br><br>  
-```
+> [!TIP]
+>
+> XAI methods provide explanations for flagged transactions ensuring regulatory compliance.<br><br>  
+>
 
 
 <br><br>
