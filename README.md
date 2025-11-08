@@ -93,20 +93,20 @@
 
 <br><br>
 
-## Introduction to the Black Box Model
+## [Introduction to the Black Box Model]()
 
 A black box model in AI or data science is a system whose internal workings are not understandable or visible to users. You can see the inputs and outputs, but not the decision-making process inside. This term is typically applied to complex models like deep neural networks and ensembles.
 
 <br><br>
 
-## How Black Box Models Work
+## [How Black Box Models Work]()
 
 These models learn from large datasets to capture hidden patterns. When fed new inputs, they produce predictions without revealing how each feature or data point influenced the output internally.
 
 <br><br>
 
 
-## Why Use Black Box Models?
+## [Why Use Black Box Models ?]()
 
 - They often achieve **higher accuracy** for complex problems.<br>
 - They can **model nonlinear and high-dimensional relationships** that simpler models cannot capture.<br>
@@ -114,7 +114,7 @@ These models learn from large datasets to capture hidden patterns. When fed new 
 
 <br><br>
 
-## Challenges of Black Box Models
+## [Challenges of Black Box Models]()
 
 - Their **lack of transparency** complicates trust and validation.<br>
 - Difficult to **debug or identify biases** inside the model.<br>
@@ -124,7 +124,7 @@ These models learn from large datasets to capture hidden patterns. When fed new 
 <br><br>
 
 
-## Explainable AI (XAI)
+## [Explainable AI (XAI)]()
 
 XAI encompasses techniques designed to explain black box models, making them more interpretable and trustworthy. It aims to provide local explanations (individual predictions) as well as global insights (overall model behavior).
 
@@ -143,7 +143,7 @@ SHAP uses game theory to fairly allocate the contribution of each feature to a p
 
 <br><br>
 
-### LIME Example
+### [LIME Example]()
 
 <br>
 
@@ -176,7 +176,7 @@ exp.show_in_notebook(show_table=True)
 <br><br>
 
 
-### SHAP Example
+### [SHAP Example]()
 
 <br>
 
@@ -201,9 +201,11 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
-# Common SHAP Visualizations and How to Interpret Them
+# [Common SHAP Visualizations and How to Interpret Them]()
 
-### 1. SHAP Summary Plot
+<br>
+
+### 1. [SHAP Summary Plot]()
 
 - Displays global feature importance and the effect direction.<br>
 - Each dot: SHAP value for a feature and instance.<br>
@@ -220,7 +222,7 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
-### 2. SHAP Dependence Plot
+### 2. [SHAP Dependence Plot]()
 
 - Plots SHAP values of a single feature versus actual feature values.<br>
 - Color encodes interaction with another feature.<br>
@@ -235,7 +237,7 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 <br><br>
 
 
-### 3. SHAP Force Plot
+### 3. [SHAP Force Plot]()
 
 - Visualizes feature contributions for a single instance.<br>
 - Shows how features cumulatively push from average prediction to final output.<br>
@@ -249,7 +251,7 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 
 <br><br>
 
-### 4. SHAP Decision Plot
+### 4. [SHAP Decision Plot]()
 
 - Shows cumulative SHAP values as features are considered.<br>
 - Traces how the prediction evolves step by step.<br>
@@ -263,7 +265,7 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 
 <br><br>
 
-### Example code to generate SHAP plots
+### [Example code to generate SHAP plots]()
 
 <br>
 
@@ -281,11 +283,11 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 <br><br>
 
 
-## Domain-Specific Use Cases
+## [Domain-Specific Use Cases]()
 
 <br>
 
-### Healthcare
+### [Healthcare]()
 
 <br>
 
@@ -298,9 +300,9 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 > LIME explains predictions on tabular clinical data to support diagnoses.<br><br>
 > 
 
-<br><br>
+<br>
 
-### Finance
+### [Finance]()
 
 <br>
 
@@ -314,9 +316,9 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 >
 
 
-<br><br>
+<br>
 
-### Marketing
+### [Marketing]()
 
 <br>
 
@@ -327,7 +329,7 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 <br><br>
 
 
-## References and Further Reading
+## [References and Further Reading]()
 
 <br>
 
