@@ -210,10 +210,12 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 - X-axis: impact on prediction (right increases, left decreases).<br>
 - Color: feature value (red = high, blue = low).<br>
 
-```
-- Interpretation: see which features push predictions higher or lower and how feature values relate.<br><br>  
-```
+<br><br>
 
+> [!TIP]
+>
+>  Interpretation: see which features push predictions higher or lower and how feature values relate.
+>
 
 <br><br>
 
@@ -223,10 +225,13 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 - Plots SHAP values of a single feature versus actual feature values.<br>
 - Color encodes interaction with another feature.<br>
 
-```
-- Reveals nonlinear effects and interactions.<br><br>  
-```
 
+<br><br>
+
+> [!TIP]
+>
+> Reveals nonlinear effects and interactions.
+> 
 
 <br><br>
 
