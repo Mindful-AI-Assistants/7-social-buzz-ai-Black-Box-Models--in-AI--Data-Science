@@ -225,7 +225,7 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 - Plots SHAP values of a single feature versus actual feature values.<br>
 - Color encodes interaction with another feature.<br>
 
-.<br>
+<br>
 
 > [!TIP]
 >
