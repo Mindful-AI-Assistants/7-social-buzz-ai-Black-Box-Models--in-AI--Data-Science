@@ -281,8 +281,37 @@ shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0
 <br><br>
 
 
+## Domain-Specific Use Cases
 
+<br>
 
+### Healthcare
+
+<br>
+
+- Deep learning models interpret medical images with SHAP to highlight important regions.<br>
+
+<br>
+
+```
+- LIME explains predictions on tabular clinical data to support diagnoses.<br><br>  
+```
+
+<br><br>
+
+### Finance
+
+<br>
+
+- Black box models detect fraudulent transactions.<br>
+
+<br>
+
+```
+- XAI methods provide explanations for flagged transactions ensuring regulatory compliance.<br><br>  
+```
+
+<br><br>
 
 
 
