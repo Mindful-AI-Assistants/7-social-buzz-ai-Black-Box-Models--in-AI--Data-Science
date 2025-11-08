@@ -124,6 +124,23 @@ These models learn from large datasets to capture hidden patterns. When fed new 
 <br><br>
 
 
+## Explainable AI (XAI)
+
+XAI encompasses techniques designed to explain black box models, making them more interpretable and trustworthy. It aims to provide local explanations (individual predictions) as well as global insights (overall model behavior).
+
+<br><br>
+
+## Interpretation Methods: LIME and SHAP
+
+### LIME (Local Interpretable Model-Agnostic Explanations)
+
+LIME explains a single prediction by approximating the black box locally with a simple interpretable model, revealing feature influences near that specific data point.
+
+### SHAP (SHapley Additive exPlanations)
+
+SHAP uses game theory to fairly allocate the contribution of each feature to a prediction, providing both local and global explanations that satisfy consistency and accuracy properties.
+
+<br><br>
 
 
 
