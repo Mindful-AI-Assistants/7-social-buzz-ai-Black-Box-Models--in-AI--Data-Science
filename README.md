@@ -263,9 +263,22 @@ shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)
 
 <br><br>
 
+### Example code to generate SHAP plots
+
+<br>
 
 
+```python  
+# assume shap_values, model, X_test from above  
 
+shap.summary_plot(shap_values[^0], X_test, feature_names=data.feature_names)  
+shap.dependence_plot(0, shap_values[^0], X_test, feature_names=data.feature_names)  
+shap.force_plot(explainer.expected_value[^0], shap_values[^0][^0], X_test[^0], feature_names=data.feature_names)  
+shap.decision_plot(explainer.expected_value[^0], shap_values[^0][0:10], X_test[0:10], feature_names=data.feature_names)  
+```
+
+
+<br><br>
 
 
 
