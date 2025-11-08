@@ -77,6 +77,18 @@
 <!--End-->
 
 
+## Table of Contents
+
+- [Introduction to the Black Box Model](#introduction-to-the-black-box-model)
+- [How Black Box Models Work](#how-black-box-models-work)
+- [Why Use Black Box Models?](#why-use-black-box-models)
+- [Challenges of Black Box Models](#challenges-of-black-box-models)
+- [Explainable AI (XAI)](#explainable-ai-xai)
+- [Interpretation Methods: LIME and SHAP](#interpretation-methods-lime-and-shap)
+- [Practical Python Examples](#practical-python-examples)
+- [Common SHAP Visualizations and How to Interpret Them](#common-shap-visualizations-and-how-to-interpret-them)
+- [Domain-Specific Use Cases](#domain-specific-use-cases)
+- [References and Further Reading](#references-and-further-reading)
 
 
 
