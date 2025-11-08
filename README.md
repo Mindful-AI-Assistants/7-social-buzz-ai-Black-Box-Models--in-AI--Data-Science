@@ -140,10 +140,40 @@ LIME explains a single prediction by approximating the black box locally with a 
 
 SHAP uses game theory to fairly allocate the contribution of each feature to a prediction, providing both local and global explanations that satisfy consistency and accuracy properties.
 
+
 <br><br>
 
+### LIME Example
+
+<br>
 
 
+```python  
+import numpy as np  
+from sklearn.datasets import load_iris  
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.model_selection import train_test_split  
+import lime  
+import lime.lime_tabular  
+
+data = load_iris()  
+X_train, X_test, y_train, y_test = train_test_split(data.data, data.target, random_state=42)  
+
+model = RandomForestClassifier(random_state=42)  
+model.fit(X_train, y_train)  
+
+explainer = lime.lime_tabular.LimeTabularExplainer(  
+    X_train,   
+    feature_names=data.feature_names,  
+    class_names=data.target_names,  
+    discretize_continuous=True  
+)  
+
+exp = explainer.explain_instance(X_test[^0], model.predict_proba, num_features=4)  
+exp.show_in_notebook(show_table=True)  
+```
+
+<br><br>
 
 
 
